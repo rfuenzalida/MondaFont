@@ -1,5 +1,9 @@
 {
-.appVersion = "1348";
+.appVersion = "1342";
+DisplayStrings = (
+"/gcommaaccent/dcaron",
+"/T_h/space/c_h/space/c_t/space/f_f/space/f_f_i/space/f_f_l/space/f_j/space/fi/space/fl/space/s_t \012Th/space ch/space ct/space ff/space ffi/space ffl/space fj/space fi/space fl/space st"
+);
 classes = (
 {
 automatic = 1;
@@ -7,7 +11,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2021 The Monda Project Authors (https://github.com/vernnobile/mondaFont)";
+copyright = "Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)";
 customParameters = (
 {
 name = licenseURL;
@@ -59,7 +63,7 @@ Tag = wght;
 );
 date = "2021-03-09 14:24:29 +0000";
 designer = "Vernon Adams";
-designerURL = "http://code.newtypography.co.uk";
+designerURL = "http://www.sansoxygen.com";
 familyName = Monda;
 featurePrefixes = (
 {
@@ -921,20 +925,24 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 2461;
-},
-{
-name = winDescent;
-value = 875;
-},
-{
 name = hheaAscender;
 value = 2461;
 },
 {
 name = hheaDescender;
 value = -875;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2480;
+},
+{
+name = winDescent;
+value = 875;
 },
 {
 name = strikeoutPosition;
@@ -77463,6 +77471,7 @@ kerning = {
 "@MMK_R_c" = -12;
 "@MMK_R_comma" = -60;
 "@MMK_R_period" = -60;
+h = -50;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -132;
@@ -77513,6 +77522,12 @@ kerning = {
 "@MMK_L_y" = {
 "@MMK_R_comma" = -40;
 "@MMK_R_period" = -40;
+};
+f = {
+f = -70;
+i = -50;
+j = -50;
+l = -36;
 };
 };
 "C6C96970-2BBD-4A47-8C90-C83F37B7F23D" = {
@@ -77571,6 +77586,7 @@ kerning = {
 "@MMK_R_c" = -12;
 "@MMK_R_comma" = -60;
 "@MMK_R_period" = -60;
+h = -50;
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -132;
@@ -77622,10 +77638,16 @@ kerning = {
 "@MMK_R_comma" = -40;
 "@MMK_R_period" = -40;
 };
+f = {
+f = -70;
+i = -30;
+j = -50;
+l = -25;
+};
 };
 };
 manufacturer = "Vernon Adams";
-manufacturerURL = "http://code.newtypography.co.uk";
+manufacturerURL = "http://www.sansoxygen.com";
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
