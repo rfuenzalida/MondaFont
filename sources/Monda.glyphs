@@ -11,7 +11,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2021 The Monda Project Authors (https://github.com/vernnobile/mondaFont)";
+copyright = "Copyright 2021 The Monda Project Authors (https://github.com/googlefonts/mondaFont)";
 customParameters = (
 {
 name = licenseURL;
@@ -63,7 +63,7 @@ Tag = wght;
 );
 date = "2021-03-09 14:24:29 +0000";
 designer = "Vernon Adams";
-designerURL = "http://code.newtypography.co.uk";
+designerURL = "http://www.sansoxygen.com";
 familyName = Monda;
 featurePrefixes = (
 {
@@ -77647,7 +77647,7 @@ l = -25;
 };
 };
 manufacturer = "Vernon Adams";
-manufacturerURL = "http://code.newtypography.co.uk";
+manufacturerURL = "http://www.sansoxygen.com";
 unitsPerEm = 2048;
 userData = {
 GSDimensionPlugin.Dimensions = {
