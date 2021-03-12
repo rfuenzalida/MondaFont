@@ -1,5 +1,5 @@
 {
-.appVersion = "1348";
+.appVersion = "1342";
 DisplayStrings = (
 "/dcaron/bdotaccent.001/ddotaccent/lcaron/hdotaccent"
 );
@@ -999,20 +999,24 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 2461;
-},
-{
-name = winDescent;
-value = 875;
-},
-{
 name = hheaAscender;
 value = 2461;
 },
 {
 name = hheaDescender;
 value = -875;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2480;
+},
+{
+name = winDescent;
+value = 875;
 },
 {
 name = strikeoutPosition;
@@ -78249,5 +78253,5 @@ type = glyphList;
 );
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 100;
 }
